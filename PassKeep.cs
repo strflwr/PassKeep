@@ -82,7 +82,7 @@ void ListPasswords()
         Console.WriteLine($"- {where}");
 }
 
-string ReadHiddenInput()
+string ReadHiddenInput() //tutaj zmienia input w konsoli na *
 {
     var sb = new StringBuilder();
     ConsoleKeyInfo key;
